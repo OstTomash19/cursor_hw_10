@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "YesevaOne-Regular";
+    src: url("../fonts/YesevaOne-Regular.ttf");
+}
+
+html {
+    overflow: hidden;
+}
+
+body {
+    background: url(../images/backGround_space.jpg);
+    background-size: cover;
+}
+
+#container {
+    display: flex;
+    width: 100%;
+    margin: 20% auto;
+    justify-content: space-around;
+}
+
+.square {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgba(243, 247, 3, 0.322);
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.644);
+    border-radius: 50%;
+    padding: 35px 50px;
+}
+
+.square-letter {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 35px;
+    font-family: "YesevaOne-Regular", sans-serif;
+    color: rgb(3, 247, 3);
+}
+
+.squares-sound {
+    color: rgb(3, 247, 3);
+}
+
+.active {
+    border: 5px solid rgb(243, 247, 3);
+    box-shadow: 0 0 10px rgba(243, 247, 3,0.5);
+}
